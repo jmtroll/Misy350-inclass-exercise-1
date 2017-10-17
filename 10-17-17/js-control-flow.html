@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset = "utf-8">
+      <title> JS Control Flow Exercise</title>
+      <script>
+	let my_name = "Jamie Troll";
+	console.log(my_name);
+// if you open this page now, it will be a blank page//
+	console.log("My name is " + my_name + "." );
+	console.log("My name has " + my_name.length + "letters.");  //will output 11 (name	 	including space)
+     </script>
+</head>
+<body>
+	<h1> See Console for outputs </h1>
+//this will give the page something to display// (can you add comments with this format or Html format? or no because it needs to be inside of script)
+    <script>
+	let pi = 3.145
+	console.log(2 * Math.random() *Math.floor(pi));
+//grade calculator (pt2)//
+	let grade = 84;
+	let letter_grade;
+	if (grade >= 90)
+		{ letter_grade = "A" ;}
+	else if (grade <=80)
+		{ letter_grade = "B"}
+	else if (grade <=70)
+		{ letter_grade =  "C"; }
+	else if (grade <=60)
+		{ letter_grade = "D"; }
+	else
+		{ letter_grade = "F"; }
+	console.log(letter_grade);
+
+	let word_count = 12;
+	if (word_count)
+		{ console.log ("not 0"; }
+	else
+		{ console.log ("word count is 0"); }
+	word_count ? console.log("ternary not 0") : console.log ("ternary 0") ;
+//when this is true - after the colon print  - not preferred method//
+     </script>
+</body>
+</html>
